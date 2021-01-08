@@ -33,7 +33,7 @@ function setup() {
 }
 
 function draw() {
-  background("yellow");
+  background("green");
   foodObj.display();
 
   fedTime=database.ref('FeedTime');
